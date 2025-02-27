@@ -4,7 +4,7 @@ import innovator from "../../../../assets/Innovator.webp";
 const AboutInnovator = () => {
   return (
     <section className="bg-[#F7F7F7] px-6 md:px-12 py-12">
-      <h2 className="text-3xl font-bold text-[#191D34] text-center mb-16">
+      <h2 className="text-3xl font-bold text-[#191D34] text-center mb-12">
         About the Innovator
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center ">
@@ -15,16 +15,14 @@ const AboutInnovator = () => {
             alt="Innovator"
           />
         </div>
-        <div className="mt-[-10rem]">
+        <div>
           <p className="text-lg text-gray-700">
-            Samuel Ebo Ghunney, an innovator from Winneba, Central Region, developed the 
-            <strong> Noghusam Cocoa Pod Breaking Machine</strong> to tackle the 
-            <strong> labor-intensive and time-consuming</strong> process of cocoa pod breaking.
+          Samuel Ebo Ghunney, a visionary innovator from <strong>Winneba, Central Region,</strong> is the mastermind behind the <strong>Noghusam Cocoa Pod Breaking Machine</strong>. As a young innovator, he recognized the challenges faced by cocoa farmers in <strong>labor-intensive and time-consuming cocoa pod breaking and seed separation</strong>.
           </p>
           <p className="mt-4 text-lg text-gray-700">
-            His innovation <strong>boosts efficiency, reduces manual labor, and enhances productivity</strong> 
-            in cocoa farming, while also contributing to <strong>sustainability and economic growth</strong> in the industry.
+          Driven by a passion for <strong>efficiency and sustainability</strong>, Samuel designed this groundbreaking machine to <strong>revolutionize cocoa farming</strong> by <strong>streamlining the harvesting process</strong>. His innovation not only <strong>boosts productivity</strong> but also significantly reduces <strong>manual labor</strong>, making cocoa processing faster, safer, and more effective for farmers.
           </p>
+          <p className="mt-4 text-lg text-gray-700">Through his <strong>dedication</strong>, Samuel Ebo Ghunney is paving the way for a more <strong>technologically advanced</strong> future in cocoa farming.</p>
         </div>
       </div>
     </section>
