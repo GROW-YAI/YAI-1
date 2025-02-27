@@ -13,16 +13,16 @@ const Navbar2 = () => {
         
         <div>
           <ul className="flex flex-col sm:flex-row gap-4 sm:gap-14 text-center">
-            <li className="hover:text-[#FE5C24] transition-all duration-300">
+            <li className="hover:text-[#FE5C24] transition-all duration-500">
               <a href="">Home</a>
             </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-300">
+            <li className="hover:text-[#FE5C24] transition-all duration-500">
               <a href="">Innovator</a>
             </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-300">
+            <li className="hover:text-[#FE5C24] transition-all duration-500">
               <a href="">Products</a>
             </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-300">
+            <li className="hover:text-[#FE5C24] transition-all duration-500">
               <a href="">Testimonials</a>
             </li>
           </ul>

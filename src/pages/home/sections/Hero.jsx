@@ -1,10 +1,27 @@
 import React from "react";
+import CocoaHero from "../../../../assets/CocoaHero.jpg"; // Ensure correct path
 
 const Hero = () => {
   return (
-    <div className="p-6 flex justify-center items-center align-middle h-[60vh] border-b-2">
-      <h4 className="text-4xl font-bold">Hero Section</h4>
-    </div>
+    <section 
+      className="w-full h-screen bg-cover bg-center relative"
+      style={{ backgroundImage: `url(${CocoaHero})` }}
+    >
+      <div className="w-full h-full flex flex-col items-center justify-center bg-blue-950/50 text-center text-white px-4">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4">
+          Revolutionizing Cocoa Processing
+        </h1>
+        <p className="text-lg md:text-xl max-w-2xl">
+          Say goodbye to manual labor! Our cutting-edge Cocoa Pod Breaking Machine makes processing effortless, saving you time and effort.
+        </p>
+        <a 
+          href="#contact"
+          className="mt-6 bg-[#FE5C24] hover:bg-[#191D34] text-white px-6 py-3 rounded-full text-lg font-semibold transition duration-500"
+        >
+          Get Yours Today
+        </a>
+      </div>
+    </section>
   );
 };
 

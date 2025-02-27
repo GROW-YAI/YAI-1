@@ -28,16 +28,16 @@ const Navbar1 = () => {
 
         <div className="mt-2 sm:mt-0">
           <ul className="flex gap-2 cursor-pointer">
-            <li className="hover:text-[#FE5C24] transition-all duration-300">
+            <li className="hover:text-[#FE5C24] transition-all duration-500">
               <FiFacebook size={20} />
             </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-300">
+            <li className="hover:text-[#FE5C24] transition-all duration-500">
               <FaInstagram size={20} />
             </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-300">
+            <li className="hover:text-[#FE5C24] transition-all duration-500">
               <FiTwitter size={20} />
             </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-300">
+            <li className="hover:text-[#FE5C24] transition-all duration-500">
               <CiLinkedin size={25} />
             </li>
           </ul>
