@@ -3,7 +3,7 @@ import logo from '../../assets/NoghusamLogo.jpg';
 
 const Navbar2 = () => {
   return (
-    <nav className="bg-white pt-2 px-4 sm:px-8 md:px-16 lg:px-24">
+    <nav className="bg-white pt-2 px-4 sm:px-8 md:px-16 lg:px-24 sticky top-0">
       <div className="container py-2 flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-4 sm:gap-0">
         
         <div className="flex gap-2 items-center">
@@ -17,6 +17,9 @@ const Navbar2 = () => {
               <a href="">Home</a>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
+              <a href="">About</a>
+            </li>
+            <li className="hover:text-[#FE5C24] transition-all duration-500">
               <a href="">Innovator</a>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
@@ -24,6 +27,9 @@ const Navbar2 = () => {
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
               <a href="">Testimonials</a>
+            </li>
+            <li className="hover:text-[#FE5C24] transition-all duration-500">
+              <a href="">Contact</a>
             </li>
           </ul>
         </div>

@@ -4,7 +4,7 @@ import CocoaHero from "../../../../assets/CocoaHero.jpg"; // Ensure correct path
 const Hero = () => {
   return (
     <section 
-      className="w-full h-screen bg-cover bg-center relative"
+      className="w-full h-screen bg-cover bg-center"
       style={{ backgroundImage: `url(${CocoaHero})` }}
     >
       <div className="w-full h-full flex flex-col items-center justify-center bg-blue-950/50 text-center text-white px-4">
