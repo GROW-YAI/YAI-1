@@ -9,7 +9,7 @@ const Testimonials = () => {
    <section className="bg-[#F7F7F7] py-16 ">
          <div className="container mx-auto text-center">
            <h2 className="text-3xl font-bold mb-8">
-              HAPPY CLIENTS
+              Happy <span className='text-[#FE5C24]'>Clients</span>
            </h2>
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
              {/* Feature 1: Increased Efficiency */}
@@ -48,7 +48,7 @@ const Testimonials = () => {
                <p className=" mt-2">
                I was skeptical at first, but this innovation is worth every penny. It reduces waste, protects the beans, and makes the entire process smoother. Highly recommended!
                </p>
-               <div className='flex mt-12 gap-2'>
+               <div className='flex mt-10 gap-2'>
                <div className=''>
                 <img src={face1} alt="" className='h-20 w-28 rounded-full'/>
                </div>

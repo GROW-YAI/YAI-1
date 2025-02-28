@@ -5,7 +5,7 @@ const AboutInnovator = () => {
   return (
     <section className="bg-[#F7F7F7] px-6 md:px-12 py-12">
       <h2 className="text-3xl font-bold text-[#191D34] text-center mb-12">
-        About the Innovator
+        Meet the <span className="text-[#FE5C24]"> Innovator</span>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center ">
         <div className="w-[30rem] border-1 border-[#FE5C24] rounded-3xl">

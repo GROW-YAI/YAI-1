@@ -11,7 +11,7 @@ const AboutProduct = () => {
           The Noghusam Cocoa Pod Breaking Machine is a revolutionary solution
           designed to enhance the efficiency, productivity, and sustainability
           of cocoa processing. Here are four major benefits that make it an
-          essential tool for cocoa farmers and processors:
+          essential tool for cocoa farmers and processors
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Feature 1: Increased Efficiency */}
