@@ -7,10 +7,10 @@ import Navbar2 from "../components/Navbar2";
 
 const RootLayout = () => {
   return (
-    <div className="w-full min-h-screen relative">
+    <div className="w-full min-h-screen">
       <Navbar1 />
       <Navbar2 />
-      <main className="relative">
+      <main>
         <Outlet />
         <Footer />
       </main>
