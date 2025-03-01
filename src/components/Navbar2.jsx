@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../../assets/NoghusamLogo.jpg";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi"; // Import icons for menu
+import { HashLink } from "react-router-hash-link";
 
 // ✅ Place smoothScrollTo function here, outside the component
 const smoothScrollTo = (target) => {
@@ -49,6 +50,12 @@ const Navbar2 = () => {
     }
   };
 
+  const scrollWithOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -80; // Adjust this value based on your navbar height
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
+
   return (
     <nav className="bg-white pt-2 px-4 sm:px-8 md:px-16 lg:px-24 sticky top-0 z-50 shadow-md">
       <div className="container py-2 flex justify-between items-center">
@@ -73,34 +80,34 @@ const Navbar2 = () => {
         >
           <ul className="flex flex-col sm:flex-row gap-4 sm:gap-14 text-center p-4 sm:p-0">
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <Link to="/" onClick={() => scrollToSection("home")}>
+              <HashLink smooth to="#home" scroll={scrollWithOffset}>
                 Home
-              </Link>
+              </HashLink>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <Link to="/" onClick={() => scrollToSection("about")}>
+              <HashLink smooth to="#about" scroll={scrollWithOffset}>
                 About
-              </Link>
+              </HashLink>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <Link to="/" onClick={() => scrollToSection("innovator")}>
+              <HashLink smooth to="#innovator" scroll={scrollWithOffset}>
                 Innovator
-              </Link>
+              </HashLink>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <Link to="/" onClick={() => scrollToSection("products")}>
+              <HashLink smooth to="#products" scroll={scrollWithOffset}>
                 Products
-              </Link>
+              </HashLink>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <Link to="/" onClick={() => scrollToSection("testimonials")}>
+              <HashLink smooth to="#testimonials" scroll={scrollWithOffset}>
                 Testimonials
-              </Link>
+              </HashLink>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <Link to="/" onClick={() => scrollToSection("contact")}>
+              <HashLink smooth to="#contact" scroll={scrollWithOffset}>
                 Contact
-              </Link>
+              </HashLink>
             </li>
           </ul>
         </div>
