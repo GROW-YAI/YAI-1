@@ -40,58 +40,52 @@ const Navbar2 = () => {
         >
           <ul className="flex flex-col sm:flex-row gap-10 text-center p-4">
             <li>
-              <HashLink
-                smooth
-                to="#home"
+              <a
+                href="#home"
                 className="hover:text-[#FE5C24] transition-all duration-500"
               >
                 Home
-              </HashLink>
+              </a>
             </li>
             <li>
-              <HashLink
-                smooth
-                to="#about"
+              <a
+                href="#about"
                 className="hover:text-[#FE5C24] transition-all duration-500"
               >
                 About
-              </HashLink>
+              </a>
             </li>
             <li>
-              <HashLink
-                smooth
-                to="#innovator"
+              <a
+                href="#innovator"
                 className="hover:text-[#FE5C24] transition-all duration-500"
               >
                 Innovator
-              </HashLink>
+              </a>
             </li>
             <li>
-              <HashLink
-                smooth
-                to="#products"
+              <a
+                href="#products"
                 className="hover:text-[#FE5C24] transition-all duration-500"
               >
                 Products
-              </HashLink>
+              </a>
             </li>
             <li>
-              <HashLink
-                smooth
-                to="#testimonials"
+              <a
+                href="#testimonials"
                 className="hover:text-[#FE5C24] transition-all duration-500"
               >
                 Testimonials
-              </HashLink>
+              </a>
             </li>
             <li>
-              <HashLink
-                smooth
-                to="#contact"
+              <a
+                href="#contact"
                 className="hover:text-[#FE5C24] transition-all duration-500"
               >
                 Contact
-              </HashLink>
+              </a>
             </li>
           </ul>
         </div>
