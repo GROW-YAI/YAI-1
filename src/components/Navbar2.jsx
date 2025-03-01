@@ -69,7 +69,7 @@ const Navbar2 = () => {
               <a href="/">Home</a>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink scroll={scrollWithSmoothEffect} to="/#about">
+              <HashLink smooth to="/#about" scroll={scrollWithSmoothEffect}>
                 About
               </HashLink>
             </li>
