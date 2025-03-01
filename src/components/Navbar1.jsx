@@ -5,7 +5,7 @@ import { CiLinkedin, CiAt } from "react-icons/ci";
 
 const Navbar1 = () => {
   return (
-    <nav className="bg-[#191D34] text-white px-4 sm:px-8 md:px-16 lg:px-24">
+    <nav className="bg-[#191D34] text-white px-4 sm:px-8 md:px-16 lg:px-24 relative">
       <div className="container py-2 flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-2 sm:gap-0">
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 items-center">
           <div className="flex gap-2">
