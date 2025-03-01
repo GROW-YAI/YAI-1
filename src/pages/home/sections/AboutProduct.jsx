@@ -1,4 +1,4 @@
-import { FaStopwatch, FaBullseye, FaUsers, FaLeaf } from "react-icons/fa"; // Import icons
+import { FaStopwatch, FaBullseye, FaUsers, FaLeaf } from "react-icons/fa"; 
 
 const AboutProduct = () => {
   return (
@@ -14,7 +14,7 @@ const AboutProduct = () => {
           essential tool for cocoa farmers and processors
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Feature 1: Increased Efficiency */}
+          
           <div className="p-6 shadow-lg border border-slate-200  rounded-lg text-center hover:scale-105 transition duration-500">
             <div className="flex justify-center mb-6">
               <FaStopwatch className="text-orange-500 text-5xl" />
@@ -31,7 +31,7 @@ const AboutProduct = () => {
             </p>
           </div>
 
-          {/* Feature 2: High Precision */}
+          
           <div className="p-6 shadow-lg border border-slate-200 rounded-lg text-center hover:scale-105 transition duration-500">
             <div className="flex justify-center mb-6">
               <FaBullseye className="text-orange-500 text-5xl" />
@@ -48,7 +48,7 @@ const AboutProduct = () => {
             </p>
           </div>
 
-          {/* Feature 3: Reduced Labor Costs */}
+        
           <div className="p-6 shadow-lg border border-slate-200 rounded-lg text-center hover:scale-105 transition duration-500">
             <div className="flex justify-center mb-6">
               <FaUsers className="text-orange-500 text-5xl" />
@@ -65,7 +65,7 @@ const AboutProduct = () => {
             </p>
           </div>
 
-          {/* Feature 4: Durable and Eco-Friendly */}
+          
           <div className="p-6 shadow-lg border border-slate-200 rounded-lg text-center hover:scale-105 transition duration-500">
             <div className="flex justify-center mb-6">
               <FaLeaf className="text-orange-500 text-5xl" />

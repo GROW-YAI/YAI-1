@@ -7,7 +7,6 @@ const Navbar1 = () => {
   return (
     <nav className="bg-[#191D34] text-white px-4 sm:px-8 md:px-16 lg:px-24">
       <div className="container py-2 flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-2 sm:gap-0">
-        
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 items-center">
           <div className="flex gap-2">
             <span className="flex items-center text-[#FE5C24]">
@@ -27,22 +26,33 @@ const Navbar1 = () => {
         </div>
 
         <div className="mt-2 sm:mt-0">
-          <ul className="flex gap-2 cursor-pointer">
-            <li className="hover:text-[#FE5C24] transition-all duration-500">
+          <div className="flex gap-2 cursor-pointer">
+            <a
+              href="https://www.facebook.com"
+              className="hover:text-[#FE5C24] transition-all duration-500"
+            >
               <FiFacebook size={20} />
-            </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-500">
+            </a>
+            <a
+              href="https://www.instagram.com"
+              className="hover:text-[#FE5C24] transition-all duration-500"
+            >
               <FaInstagram size={20} />
-            </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-500">
+            </a>
+            <a
+              href="https://www.twitter.com"
+              className="hover:text-[#FE5C24] transition-all duration-500"
+            >
               <FiTwitter size={20} />
-            </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-500">
+            </a>
+            <a
+              href="https://linkedin.com"
+              className="hover:text-[#FE5C24] transition-all duration-500"
+            >
               <CiLinkedin size={25} />
-            </li>
-          </ul>
+            </a>
+          </div>
         </div>
-
       </div>
     </nav>
   );

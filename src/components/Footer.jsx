@@ -13,7 +13,7 @@ const Footer = () => {
     <section className="bg-[#191D34] text-gray-400 p-6 md:p-12 pt-[10rem]">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-[8rem]">
         <div>
-          <div className="flex gap-2 items-center text-white mb-10">
+          <div className="flex gap-2 items-center text-white mb-7">
             <img src={logo} alt="logo" className="h-16" />
             <h2 className="text-xl font-bold">NOGHUSAM</h2>
           </div>
@@ -26,26 +26,26 @@ const Footer = () => {
         </div>
 
         <div className="text-center">
-          <h2 className="text-xl font-bold text-white mb-10">SOCIALS</h2>
-          <ul className="gap-4 cursor-pointer flex flex-col items-center">
-            <li className="hover:text-[#FE5C24] transition-all duration-500">
+          <h2 className="text-xl font-bold text-white mb-16">SOCIALS</h2>
+          <div className="gap-4 cursor-pointer flex flex-col items-center">
+            <a href="https://www.facebook.com" className="hover:text-[#FE5C24] transition-all duration-500">
               <FiFacebook size={20} />
-            </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-500">
+            </a>
+            <a href="https://www.instagram.com" className="hover:text-[#FE5C24] transition-all duration-500">
               <FaInstagram size={20} />
-            </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-500">
+            </a>
+            <a href="https://www.twitter.com" className="hover:text-[#FE5C24] transition-all duration-500">
               <FiTwitter size={20} />
-            </li>
-            <li className="hover:text-[#FE5C24] transition-all duration-500">
+            </a>
+            <a href="https://linkedin.com" className="hover:text-[#FE5C24] transition-all duration-500">
               <CiLinkedin size={25} />
-            </li>
-          </ul>
+            </a>
+          </div>
         </div>
 
         <div className="flex flex-col gap-4">
-          <h2 className="text-xl font-bold text-white mb-10">CONTACT INFO</h2>
-          <div className="flex gap-2 hover:text-[#FE5C24] transition-all duration-500">
+          <h2 className="text-xl font-bold text-white mb-12">CONTACT INFO</h2>
+          <div className="flex gap-3 hover:text-[#FE5C24] transition-all duration-500">
             <CiLocationOn size={25} className="self-center" />
             <div>
               <p>Winneba, Central Region</p>

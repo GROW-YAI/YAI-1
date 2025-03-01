@@ -12,7 +12,7 @@ const Testimonials = () => {
               Happy <span className='text-[#FE5C24]'>Clients</span>
            </h2>
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
-             {/* Feature 1: Increased Efficiency */}
+          
              <div className="bg-white p-6 shadow-lg border border-slate-200  rounded-lg text-center hover:scale-105 transition duration-500">
                <div>
                <p className=" mt-2">
@@ -27,7 +27,7 @@ const Testimonials = () => {
                </div>
              </div>
    
-             {/* Feature 2: High Precision */}
+             
              <div className="bg-white p-6 shadow-lg border border-slate-200  rounded-lg text-center hover:scale-105 transition duration-500">
                <div>
                <p className=" mt-2">
@@ -42,7 +42,7 @@ const Testimonials = () => {
                </div>
              </div>
    
-             {/* Feature 3: Reduced Labor Costs */}
+             
              <div className="bg-white p-6 shadow-lg border border-slate-200  rounded-lg text-center hover:scale-105 transition duration-500">
                <div>
                <p className=" mt-2">
@@ -57,7 +57,7 @@ const Testimonials = () => {
                </div>
              </div>
    
-             {/* Feature 4: Durable and Eco-Friendly */}
+             
              <div className="bg-white p-6 shadow-lg border border-slate-200  rounded-lg text-center hover:scale-105 transition duration-500">
                <div>
                <p className=" mt-2">
