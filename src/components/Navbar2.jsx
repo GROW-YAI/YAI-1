@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/NoghusamLogo.jpg";
-import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi"; // Import icons for menu
 
 // ✅ Place smoothScrollTo function here, outside the component
@@ -42,6 +42,13 @@ const Navbar2 = () => {
     if (el) smoothScrollTo(el);
   };
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <nav className="bg-white pt-2 px-4 sm:px-8 md:px-16 lg:px-24 sticky top-0 z-50 shadow-md">
       <div className="container py-2 flex justify-between items-center">
@@ -66,32 +73,34 @@ const Navbar2 = () => {
         >
           <ul className="flex flex-col sm:flex-row gap-4 sm:gap-14 text-center p-4 sm:p-0">
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <a href="/">Home</a>
+              <Link to="/" onClick={() => scrollToSection("home")}>
+                Home
+              </Link>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink smooth to="/#about" scroll={scrollWithSmoothEffect}>
+              <Link to="/" onClick={() => scrollToSection("about")}>
                 About
-              </HashLink>
+              </Link>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink scroll={scrollWithSmoothEffect} to="/#innovator">
+              <Link to="/" onClick={() => scrollToSection("innovator")}>
                 Innovator
-              </HashLink>
+              </Link>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink scroll={scrollWithSmoothEffect} to="/#products">
+              <Link to="/" onClick={() => scrollToSection("products")}>
                 Products
-              </HashLink>
+              </Link>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink scroll={scrollWithSmoothEffect} to="/#testimonials">
+              <Link to="/" onClick={() => scrollToSection("testimonials")}>
                 Testimonials
-              </HashLink>
+              </Link>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink scroll={scrollWithSmoothEffect} to="/#contact">
+              <Link to="/" onClick={() => scrollToSection("contact")}>
                 Contact
-              </HashLink>
+              </Link>
             </li>
           </ul>
         </div>
