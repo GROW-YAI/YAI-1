@@ -80,32 +80,32 @@ const Navbar2 = () => {
         >
           <ul className="flex flex-col sm:flex-row gap-4 sm:gap-14 text-center p-4 sm:p-0">
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink smooth to="#home" scroll={scrollWithOffset}>
+              <HashLink smooth to="/#home" scroll={scrollWithOffset}>
                 Home
               </HashLink>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink smooth to="#about" scroll={scrollWithOffset}>
+              <HashLink smooth to="/#about" scroll={scrollWithOffset}>
                 About
               </HashLink>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink smooth to="#innovator" scroll={scrollWithOffset}>
+              <HashLink smooth to="/#innovator" scroll={scrollWithOffset}>
                 Innovator
               </HashLink>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink smooth to="#products" scroll={scrollWithOffset}>
+              <HashLink smooth to="/#products" scroll={scrollWithOffset}>
                 Products
               </HashLink>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink smooth to="#testimonials" scroll={scrollWithOffset}>
+              <HashLink smooth to="/#testimonials" scroll={scrollWithOffset}>
                 Testimonials
               </HashLink>
             </li>
             <li className="hover:text-[#FE5C24] transition-all duration-500">
-              <HashLink smooth to="#contact" scroll={scrollWithOffset}>
+              <HashLink smooth to="/#contact" scroll={scrollWithOffset}>
                 Contact
               </HashLink>
             </li>

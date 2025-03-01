@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import "./App.css";
 import RootLayout from "./layouts/RootLayout";
@@ -11,7 +11,7 @@ import Testimonials from "./pages/home/sections/Testimonials";
 import Contact from "./pages/home/sections/Contact";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <RootLayout />,
@@ -25,8 +25,6 @@ function App() {
             { path: "products", element: <Showcase /> },
             { path: "testimonials", element: <Testimonials /> },
             { path: "contact", element: <Contact /> },
-
-      
           ],
         },
       ],
