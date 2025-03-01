@@ -6,24 +6,17 @@ const Navbar1 = () => {
   return (
     <nav className="bg-[#191D34] text-white px-4">
       <div className="py-2 flex flex-col sm:flex-row justify-between items-center gap-2">
-        <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 items-center">
-          <div className="flex gap-2">
-            <span className="flex items-center text-[#FE5C24]">
-              <FiPhoneCall />
-            </span>
-            <span className="text-[.9rem]">+2332078763</span>
-          </div>
-
+        <div className="flex flex-col sm:flex-row gap-2">
+          <span className="flex items-center text-[#FE5C24]">
+            <FiPhoneCall />
+          </span>
+          <span className="text-[.9rem]">+2332078763</span>
           <div className="w-0.5 h-3 bg-slate-400 hidden sm:block"></div>
-
-          <div className="flex gap-2">
-            <span className="flex items-center text-[#FE5C24]">
-              <CiAt size={20} />
-            </span>
-            <span className="text-[.9rem]">info@example.com</span>
-          </div>
+          <span className="flex items-center text-[#FE5C24]">
+            <CiAt size={20} />
+          </span>
+          <span className="text-[.9rem]">info@example.com</span>
         </div>
-
         <div className="mt-2 sm:mt-0">
           <div className="flex gap-2 cursor-pointer">
             <a

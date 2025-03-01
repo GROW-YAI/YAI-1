@@ -8,7 +8,7 @@ const Hero = () => {
       className="w-full h-screen bg-cover bg-center"
       style={{ backgroundImage: `url(${CocoaHero})` }}
     >
-      <div className="w-full h-full flex flex-col items-center justify-center bg-[#191D34]/50 text-center text-white pt-[5.5rem]">
+      <div className="w-full h-full flex flex-col items-center justify-center bg-[#191D34]/50 text-center text-white pt-[9rem]">
         <h1 className="text-5xl md:text-6xl font-bold mb-4">
           Revolutionizing Cocoa Processing
         </h1>

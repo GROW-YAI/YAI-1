@@ -17,7 +17,7 @@ const Navbar2 = () => {
   };
 
   return (
-    <nav className="bg-white fixed top-0 left-0 w-full z-50 shadow-md">
+    <nav className="bg-white fixed top-0 left-0 w-full z-50 shadow-md px-6">
       <div className="container py-2 flex justify-between items-center">
         {/* Logo */}
         <div className="flex gap-2 items-center">
@@ -38,24 +38,60 @@ const Navbar2 = () => {
             menuOpen ? "block" : "hidden"
           } lg:flex`}
         >
-          <ul className="flex flex-col sm:flex-row gap-4 text-center p-4">
+          <ul className="flex flex-col sm:flex-row gap-10 text-center p-4">
             <li>
-              <HashLink smooth to="#home">Home</HashLink>
+              <HashLink
+                smooth
+                to="#home"
+                className="hover:text-[#FE5C24] transition-all duration-500"
+              >
+                Home
+              </HashLink>
             </li>
             <li>
-              <HashLink smooth to="#about">About</HashLink>
+              <HashLink
+                smooth
+                to="#about"
+                className="hover:text-[#FE5C24] transition-all duration-500"
+              >
+                About
+              </HashLink>
             </li>
             <li>
-              <HashLink smooth to="#innovator">Innovator</HashLink>
+              <HashLink
+                smooth
+                to="#innovator"
+                className="hover:text-[#FE5C24] transition-all duration-500"
+              >
+                Innovator
+              </HashLink>
             </li>
             <li>
-              <HashLink smooth to="#products">Products</HashLink>
+              <HashLink
+                smooth
+                to="#products"
+                className="hover:text-[#FE5C24] transition-all duration-500"
+              >
+                Products
+              </HashLink>
             </li>
             <li>
-              <HashLink smooth to="#testimonials">Testimonials</HashLink>
+              <HashLink
+                smooth
+                to="#testimonials"
+                className="hover:text-[#FE5C24] transition-all duration-500"
+              >
+                Testimonials
+              </HashLink>
             </li>
             <li>
-              <HashLink smooth to="#contact">Contact</HashLink>
+              <HashLink
+                smooth
+                to="#contact"
+                className="hover:text-[#FE5C24] transition-all duration-500"
+              >
+                Contact
+              </HashLink>
             </li>
           </ul>
         </div>
