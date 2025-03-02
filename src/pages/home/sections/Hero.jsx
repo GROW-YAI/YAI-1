@@ -5,19 +5,20 @@ import { HashLink } from "react-router-hash-link";
 const Hero = () => {
   return (
     <section 
-      className="w-full h-screen bg-cover "
+      className="w-full h-screen bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${CocoaHero})` }}
     >
-      <div className="w-full h-full flex flex-col items-center justify-center bg-[#191D34]/40 text-center text-white pt-[3rem]">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4">
+      <div className="w-full h-full flex flex-col items-center justify-center bg-[#191D34]/50 text-center text-white px-4">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
           Revolutionizing Cocoa Processing
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl font-semibold">
+        <p className="text-base md:text-lg lg:text-xl max-w-3xl font-semibold">
           Say goodbye to manual labor! Our cutting-edge Cocoa Pod Breaking Machine makes processing effortless, saving you time and effort.
         </p>
-        <HashLink smooth to='/#products' 
-          href="#contact"
-          className="mt-8 bg-[#FE5C24] hover:bg-[#191D34] text-white px-6 py-3 rounded-full text-lg font-semibold transition duration-500"
+        <HashLink 
+          smooth 
+          to="/#products"
+          className="mt-6 md:mt-8 bg-[#FE5C24] hover:bg-[#191D34] text-white px-5 md:px-6 py-2 md:py-3 rounded-full text-lg font-semibold transition duration-500"
         >
           Get Yours Today
         </HashLink>
