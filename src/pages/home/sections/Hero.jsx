@@ -1,14 +1,14 @@
 import React from "react";
-import CocoaHero from "../../../../assets/Cocoa1.jpg"; 
+import CocoaHero from "../../../../assets/Cocoa2.jpg"; 
 import { HashLink } from "react-router-hash-link";
 
 const Hero = () => {
   return (
     <section 
-      className="w-full h-screen bg-cover bg-center"
+      className="w-full h-screen bg-cover "
       style={{ backgroundImage: `url(${CocoaHero})` }}
     >
-      <div className="w-full h-full flex flex-col items-center justify-center bg-[#191D34]/50 text-center text-white pt-[9rem]">
+      <div className="w-full h-full flex flex-col items-center justify-center bg-[#191D34]/40 text-center text-white pt-[3rem]">
         <h1 className="text-5xl md:text-6xl font-bold mb-4">
           Revolutionizing Cocoa Processing
         </h1>
