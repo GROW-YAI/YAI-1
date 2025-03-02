@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-scroll";  // Import Link from react-scroll
+ // Import Link from react-scroll
 import logo from "../../assets/NoghusamLogo.jpg";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar2 = () => {
   return (
@@ -17,9 +18,8 @@ const Navbar2 = () => {
           <ul className="flex gap-10 text-center p-4">
             <li>
               <Link
-                to="home"
-                smooth={true}
-                duration={500}
+                to="/#home"
+                smooth
                 className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 Home
@@ -27,9 +27,8 @@ const Navbar2 = () => {
             </li>
             <li>
               <Link
-                to="about"
-                smooth={true}
-                duration={500}
+                to="/#about"
+                smooth
                 className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 About
@@ -37,9 +36,8 @@ const Navbar2 = () => {
             </li>
             <li>
               <Link
-                to="innovator"
-                smooth={true}
-                duration={500}
+                to="/#innovator"
+                smooth
                 className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 Innovator
@@ -47,9 +45,8 @@ const Navbar2 = () => {
             </li>
             <li>
               <Link
-                to="products"
-                smooth={true}
-                duration={500}
+                to="/#products"
+                smooth
                 className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 Products
@@ -57,9 +54,8 @@ const Navbar2 = () => {
             </li>
             <li>
               <Link
-                to="testimonials"
-                smooth={true}
-                duration={500}
+                to="/#testimonials"
+                smooth
                 className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 Testimonials
@@ -67,9 +63,8 @@ const Navbar2 = () => {
             </li>
             <li>
               <Link
-                to="contact"
-                smooth={true}
-                duration={500}
+                to="/#contact"
+                smooth
                 className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 Contact
