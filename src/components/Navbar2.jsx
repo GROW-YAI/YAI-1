@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";  // Import Link from react-scroll
 import logo from "../../assets/NoghusamLogo.jpg";
 
 const Navbar2 = () => {
@@ -11,56 +12,68 @@ const Navbar2 = () => {
           <h2 className="text-xl font-bold text-[#191D34]">NOGHUSAM</h2>
         </div>
 
-        {/* ✅ Navigation Links */}
+        {/* ✅ Navigation Links with react-scroll */}
         <div className="bg-white">
           <ul className="flex gap-10 text-center p-4">
             <li>
-              <a
-                href="#home"
-                className="hover:text-[#FE5C24] transition-all duration-500"
+              <Link
+                to="home"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#about"
-                className="hover:text-[#FE5C24] transition-all duration-500"
+              <Link
+                to="about"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#innovator"
-                className="hover:text-[#FE5C24] transition-all duration-500"
+              <Link
+                to="innovator"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 Innovator
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#products"
-                className="hover:text-[#FE5C24] transition-all duration-500"
+              <Link
+                to="products"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 Products
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#testimonials"
-                className="hover:text-[#FE5C24] transition-all duration-500"
+              <Link
+                to="testimonials"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 Testimonials
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#contact"
-                className="hover:text-[#FE5C24] transition-all duration-500"
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer hover:text-[#FE5C24] transition-all duration-500"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

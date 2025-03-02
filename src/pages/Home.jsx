@@ -7,7 +7,7 @@ import Testimonials from "./home/sections/Testimonials";
 
 function Home() {
   return (
-    <div>
+    <main>
       <section id="home">
         <Hero />
       </section>
@@ -26,7 +26,7 @@ function Home() {
       <section id="contact">
         <Contact />
       </section>
-    </div>
+    </main>
   );
 }
 
