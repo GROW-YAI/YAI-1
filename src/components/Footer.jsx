@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
           <div className="flex gap-4 hover:text-[#FE5C24] transition-all duration-500">
             <CiGlobe size={20} />
-            <p>noghusam.netlify.app</p>
+            <p>noghusam.com.gh</p>
           </div>
         </div>
       </div>
