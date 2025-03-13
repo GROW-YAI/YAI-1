@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
           <div className="flex gap-4 hover:text-[#FE5C24] transition-all duration-500">
             <MdPhoneAndroid size={20} />
-            <p>+233242078763</p>
+            <p>+233123456789</p>
           </div>
           <div className="flex gap-4 hover:text-[#FE5C24] transition-all duration-500">
             <MdMailOutline size={20} />

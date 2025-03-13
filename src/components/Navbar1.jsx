@@ -12,7 +12,7 @@ const Navbar1 = () => {
             <span className="flex items-center text-[#FE5C24]">
               <FiPhoneCall />
             </span>
-            <span className="text-[.9rem]">+2332078763</span>
+            <span className="text-[.9rem]">+233123456789</span>
           </div>
           <div className="hidden md:block w-0.5 h-5 bg-slate-400"></div>
           <div className="flex gap-2">
