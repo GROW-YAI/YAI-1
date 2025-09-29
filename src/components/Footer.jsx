@@ -1,80 +1,116 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import logo from "../../assets/NoghusamLogo.jpg";
 import { FiFacebook, FiTwitter } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
-import { MdPhoneAndroid } from "react-icons/md";
-import { MdMailOutline } from "react-icons/md";
-import { CiGlobe } from "react-icons/ci";
-import { CiLocationOn } from "react-icons/ci";
+import { CiLinkedin, CiGlobe, CiLocationOn } from "react-icons/ci";
+import { MdPhoneAndroid, MdMailOutline } from "react-icons/md";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
-    <section className="bg-[#191D34] text-gray-400 p-6 md:p-12 pt-[10rem]">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-[8rem]">
-        <div>
-          <div className="flex gap-2 items-center text-white mb-7">
-            <img src={logo} alt="logo" className="h-16" />
-            <h2 className="text-xl font-bold">NOGHUSAM</h2>
-          </div>
-          <p>
-            The Noghusam Cocoa Pod Breaking Machine is a revolutionary solution
-            designed to enhance the efficiency, productivity, and sustainability
-            of cocoa processing. Here are four major benefits that make it an
-            essential tool for cocoa farmers and processors.
-          </p>
-        </div>
+    <footer role="contentinfo" className="bg-gradient-to-br from-[#0b1220] to-[#191D34] text-gray-300">
+      <div className="max-w-7xl  mx-auto px-6 py-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-        <div className="text-center">
-          <h2 className="text-xl font-bold text-white mb-16">SOCIALS</h2>
-          <div className="gap-4 cursor-pointer flex flex-col items-center">
-            <a href="https://www.facebook.com" className="hover:text-[#FE5C24] transition-all duration-500">
-              <FiFacebook size={20} />
-            </a>
-            <a href="https://www.instagram.com" className="hover:text-[#FE5C24] transition-all duration-500">
-              <FaInstagram size={20} />
-            </a>
-            <a href="https://www.twitter.com" className="hover:text-[#FE5C24] transition-all duration-500">
-              <FiTwitter size={20} />
-            </a>
-            <a href="https://linkedin.com" className="hover:text-[#FE5C24] transition-all duration-500">
-              <CiLinkedin size={25} />
-            </a>
-          </div>
-        </div>
+          {/* Brand column */}
+          <div>
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src={logo}
+                alt="Noghusam logo"
+                className="h-14 w-14 object-contain rounded-md"
+                loading="lazy"
+              />
+              <div>
+                <h3 className="text-white text-lg font-semibold">NOGHUSAM</h3>
+                <p className="text-sm text-gray-400">Cocoa processing equipment for efficient farms.</p>
+              </div>
+            </div>
 
-        <div className="flex flex-col gap-4">
-          <h2 className="text-xl font-bold text-white mb-12">CONTACT INFO</h2>
-          <div className="flex gap-3 hover:text-[#FE5C24] transition-all duration-500">
-            <CiLocationOn size={25} className="self-center" />
-            <div>
-              <p>Winneba, Central Region</p>
-              <p>Ghana</p>
+            <p className="text-sm text-gray-400 leading-relaxed">
+              The Noghusam Cocoa Pod Breaking Machine improves efficiency, productivity and sustainability — designed for both smallholder and commercial processors.
+            </p>
+          </div>
+
+          {/* Quick links */}
+          <nav aria-label="Quick links">
+            <h4 className="text-white font-semibold mb-4">Quick links</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a href="/#/#products" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">Products</a>
+              </li>
+              <li>
+                <a href="/about" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">About</a>
+              </li>
+              <li>
+                <a href="/support" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">Support</a>
+              </li>
+              <li>
+                <a href="/contact" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          {/* Contact info & socials */}
+          <div>
+            <h4 className="text-white font-semibold mb-4">Contact</h4>
+            <address className="not-italic text-sm space-y-3">
+              <div className="flex items-start gap-3">
+                <CiLocationOn aria-hidden size={20} className="mt-1" />
+                <div>
+                  <span className="block">Winneba, Central Region</span>
+                  <span className="block">Ghana</span>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <MdPhoneAndroid aria-hidden size={18} />
+                <a href="tel:+233123456789" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">+233 123 456 789</a>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <MdMailOutline aria-hidden size={18} />
+                <a href="mailto:info@noghusam.com.gh" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">info@noghusam.com.gh</a>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <CiGlobe aria-hidden size={18} />
+                <a href="https://noghusam.com.gh" target="_blank" rel="noopener noreferrer" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">noghusam.com.gh</a>
+              </div>
+            </address>
+
+            <div className="mt-6">
+              <h5 className="text-sm text-white font-semibold mb-2">Follow us</h5>
+              <div className="flex gap-3">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]">
+                  <FiFacebook size={18} />
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]">
+                  <FaInstagram size={18} />
+                </a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]">
+                  <FiTwitter size={18} />
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]">
+                  <CiLinkedin size={18} />
+                </a>
+              </div>
             </div>
           </div>
-          <div className="flex gap-4 hover:text-[#FE5C24] transition-all duration-500">
-            <MdPhoneAndroid size={20} />
-            <p>+233123456789</p>
-          </div>
-          <div className="flex gap-4 hover:text-[#FE5C24] transition-all duration-500">
-            <MdMailOutline size={20} />
-            <p>info@example.com</p>
-          </div>
-          <div className="flex gap-4 hover:text-[#FE5C24] transition-all duration-500">
-            <CiGlobe size={20} />
-            <p>noghusam.com.gh</p>
+
+        </div>
+
+        <div className="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-sm text-gray-400">© {year} Noghusam. All rights reserved.</p>
+          <div className="text-sm text-gray-400">
+            <a href="/privacy" className="mr-4 hover:text-[#FE5C24] focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">Privacy</a>
+            <a href="/terms" className="hover:text-[#FE5C24] focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">Terms</a>
           </div>
         </div>
       </div>
-
-      <div>
-        <hr className="w-full md:w-[78rem] mt-10 mx-auto" />
-      </div>
-
-      <div className="flex justify-center items-center mt-5 text-center">
-        <p>Copyright &copy; 2025 All rights reserved</p>
-      </div>
-    </section>
+    </footer>
   );
 };
 
