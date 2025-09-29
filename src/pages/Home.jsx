@@ -23,9 +23,6 @@ function Home() {
       <section id="testimonials">
         <Testimonials />
       </section>
-      <section id="contact">
-        <Contact />
-      </section>
     </main>
   );
 }
