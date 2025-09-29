@@ -10,10 +10,12 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer role="contentinfo" className="bg-gradient-to-br from-[#0b1220] to-[#191D34] text-gray-300">
+    <footer
+      role="contentinfo"
+      className="bg-gradient-to-br from-[#0b1220] to-[#191D34] text-gray-300"
+    >
       <div className="max-w-7xl  mx-auto px-6 py-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
           {/* Brand column */}
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -25,12 +27,16 @@ const Footer = () => {
               />
               <div>
                 <h3 className="text-white text-lg font-semibold">NOGHUSAM</h3>
-                <p className="text-sm text-gray-400">Cocoa processing equipment for efficient farms.</p>
+                <p className="text-sm text-gray-400">
+                  Cocoa processing equipment for efficient farms.
+                </p>
               </div>
             </div>
 
             <p className="text-sm text-gray-400 leading-relaxed">
-              The Noghusam Cocoa Pod Breaking Machine improves efficiency, productivity and sustainability — designed for both smallholder and commercial processors.
+              The Noghusam Cocoa Pod Breaking Machine improves efficiency,
+              productivity and sustainability — designed for both smallholder
+              and commercial processors.
             </p>
           </div>
 
@@ -39,17 +45,51 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-4">Quick links</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/#/#products" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">Products</a>
+                <Link
+                  to="/#home"
+                  smooth
+                  className="hover:text-[#FE5C24] transition-all duration-300"
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <a href="/about" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">About</a>
+                <Link
+                  to="/#about"
+                  smooth
+                  className="hover:text-[#FE5C24] transition-all duration-300"
+                >
+                  About
+                </Link>
               </li>
               <li>
-                <a href="/support" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">Support</a>
+                <Link
+                  to="/#innovator"
+                  smooth
+                  className="hover:text-[#FE5C24] transition-all duration-300"
+                >
+                  Innovator
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">Contact</a>
+                <Link
+                  to="/#products"
+                  smooth
+                  className="hover:text-[#FE5C24] transition-all duration-300"
+                >
+                  Products
+                </Link>
               </li>
+              <li>
+                <Link
+                  to="/#testimonials"
+                  smooth
+                  className="hover:text-[#FE5C24] transition-all duration-300"
+                >
+                  Testimonials
+                </Link>
+              </li>
+            
             </ul>
           </nav>
 
@@ -67,46 +107,100 @@ const Footer = () => {
 
               <div className="flex items-center gap-3">
                 <MdPhoneAndroid aria-hidden size={18} />
-                <a href="tel:+233123456789" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">+233 123 456 789</a>
+                <a
+                  href="tel:+233123456789"
+                  className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded"
+                >
+                  +233 123 456 789
+                </a>
               </div>
 
               <div className="flex items-center gap-3">
                 <MdMailOutline aria-hidden size={18} />
-                <a href="mailto:info@noghusam.com.gh" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">info@noghusam.com.gh</a>
+                <a
+                  href="mailto:info@noghusam.com.gh"
+                  className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded"
+                >
+                  info@noghusam.com.gh
+                </a>
               </div>
 
               <div className="flex items-center gap-3">
                 <CiGlobe aria-hidden size={18} />
-                <a href="https://noghusam.com.gh" target="_blank" rel="noopener noreferrer" className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">noghusam.com.gh</a>
+                <a
+                  href="https://noghusam.com.gh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded"
+                >
+                  noghusam.com.gh
+                </a>
               </div>
             </address>
 
             <div className="mt-6">
-              <h5 className="text-sm text-white font-semibold mb-2">Follow us</h5>
+              <h5 className="text-sm text-white font-semibold mb-2">
+                Follow us
+              </h5>
               <div className="flex gap-3">
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]"
+                >
                   <FiFacebook size={18} />
                 </a>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]">
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]"
+                >
                   <FaInstagram size={18} />
                 </a>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]">
+                <a
+                  href="https://www.twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter"
+                  className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]"
+                >
                   <FiTwitter size={18} />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]">
+                <a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                  className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]"
+                >
                   <CiLinkedin size={18} />
                 </a>
               </div>
             </div>
           </div>
-
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-gray-400">© {year} Noghusam. All rights reserved.</p>
+          <p className="text-sm text-gray-400">
+            © {year} Noghusam. All rights reserved.
+          </p>
           <div className="text-sm text-gray-400">
-            <a href="/privacy" className="mr-4 hover:text-[#FE5C24] focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">Privacy</a>
-            <a href="/terms" className="hover:text-[#FE5C24] focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded">Terms</a>
+            <a
+              href="/privacy"
+              className="mr-4 hover:text-[#FE5C24] focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded"
+            >
+              Privacy
+            </a>
+            <a
+              href="/terms"
+              className="hover:text-[#FE5C24] focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded"
+            >
+              Terms
+            </a>
           </div>
         </div>
       </div>

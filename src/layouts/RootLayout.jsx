@@ -12,7 +12,9 @@ const RootLayout = () => {
       <Navbar2 />
       <main className="relative">
         <Outlet />
-        <Footer />
+        <div id="contact">
+          <Footer id/>
+        </div>
       </main>
     </div>
   );
