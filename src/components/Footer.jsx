@@ -144,7 +144,7 @@ const Footer = () => {
               </h5>
               <div className="flex gap-3">
                 <a
-                  href="https://web.facebook.com/share/v/15rtT4wbBQ/"
+                  href="https://www.facebook.com/cwmcl/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
@@ -153,8 +153,7 @@ const Footer = () => {
                   <FiFacebook size={18} />
                 </a>
                 <a
-                  href="https://www.instagram.com/creativewarriormetalcompany?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                  target="_blank"
+                  href="https://www.instagram.com/creativewarriormetalcompany/"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
                   className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]"
