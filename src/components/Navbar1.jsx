@@ -63,7 +63,7 @@ const Navbar1 = () => {
               href="https://www.linkedin.com/company/creative-warrior-metal-company/"
               className="hover:text-[#FE5C24] transition-all duration-500"
             >
-              <CiLinkedin size={25} />
+              <CiLinkedin size={22} />
             </a>
           </div>
         </div>
