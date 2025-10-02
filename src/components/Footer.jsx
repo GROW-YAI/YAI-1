@@ -1,8 +1,9 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import logo from "../../assets/NoghusamLogo.jpg";
-import { FiFacebook, FiTwitter } from "react-icons/fi";
+import { FiFacebook } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
 import { CiLinkedin, CiGlobe, CiLocationOn } from "react-icons/ci";
 import { MdPhoneAndroid, MdMailOutline } from "react-icons/md";
 
@@ -89,7 +90,6 @@ const Footer = () => {
                   Testimonials
                 </Link>
               </li>
-            
             </ul>
           </nav>
 
@@ -144,7 +144,7 @@ const Footer = () => {
               </h5>
               <div className="flex gap-3">
                 <a
-                  href="https://www.facebook.com"
+                  href="https://www.facebook.com/cwmcl/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
@@ -153,8 +153,7 @@ const Footer = () => {
                   <FiFacebook size={18} />
                 </a>
                 <a
-                  href="https://www.instagram.com"
-                  target="_blank"
+                  href="https://www.instagram.com/creativewarriormetalcompany/"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
                   className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]"
@@ -162,16 +161,16 @@ const Footer = () => {
                   <FaInstagram size={18} />
                 </a>
                 <a
-                  href="https://www.twitter.com"
+                  href="https://www.tiktok.com/@user5228350683083?is_from_webapp=1&sender_device=pc"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Twitter"
                   className="p-2 rounded-full bg-[#0b1220] hover:bg-[#FE5C24] transition-shadow shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FE5C24]"
                 >
-                  <FiTwitter size={18} />
+                  <FaTiktok size={18} />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/company/creative-warrior-metal-company/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
