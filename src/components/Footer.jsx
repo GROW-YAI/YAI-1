@@ -118,10 +118,10 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <MdMailOutline aria-hidden size={18} />
                 <a
-                  href="mailto:info@noghusam.com.gh"
+                  href="mailto:creativewarriormetalworks@gmail.com"
                   className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded"
                 >
-                  info@noghusam.com.gh
+                  creativewarriormetalworks@gmail.com
                 </a>
               </div>
 
