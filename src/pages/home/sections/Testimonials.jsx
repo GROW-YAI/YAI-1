@@ -25,7 +25,6 @@ const Testimonials = () => {
                   <img src={face2} alt="" className="h-20 w-22 rounded-full" />
                 </div>
                 <p className="flex justify-center items-center">
-                  {" "}
                   NAI AMPEM DARKO ATTOPEE I
                 </p>
               </div>
