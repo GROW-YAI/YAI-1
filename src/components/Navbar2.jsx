@@ -15,7 +15,7 @@ const Navbar2 = () => {
       <div className="py-2 flex justify-between items-center">
         {/* Logo */}
         <div className="flex gap-2 items-center">
-          <img src={logo} alt="logo" className="h-12 rounded-4xl" />
+          <img src={logo} alt="logo" className="h-15 rounded-4xl" />
           <h2 className="text-xl font-bold text-[#191D34]">NOGHUSAM</h2>
         </div>
 

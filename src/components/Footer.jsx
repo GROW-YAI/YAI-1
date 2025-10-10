@@ -23,7 +23,7 @@ const Footer = () => {
               <img
                 src={logo}
                 alt="Noghusam logo"
-                className="h-14 w-14 object-contain rounded-md"
+                className="h-20 w-20 object-contain rounded-md"
                 loading="lazy"
               />
               <div>
