@@ -1,6 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import logo from "../../assets/NoghusamLogo.jpg";
+import logo from "../../assets/logo.png";
 import { FiFacebook } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
@@ -23,7 +23,7 @@ const Footer = () => {
               <img
                 src={logo}
                 alt="Noghusam logo"
-                className="h-14 w-14 object-contain rounded-md"
+                className="h-20 w-20 object-contain rounded-md"
                 loading="lazy"
               />
               <div>

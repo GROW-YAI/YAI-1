@@ -1,5 +1,5 @@
 import React from "react";
-import innovator from "../../../../assets/Innovator.webp";
+import innovator from "../../../../assets/innovator.jpg";
 
 const AboutInnovator = () => {
   return (
