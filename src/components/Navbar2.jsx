@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { FiMenu, FiX } from "react-icons/fi"; // Import icons for menu toggle
-import logo from "../../assets/NoghusamLogo.jpg";
+import logo from "../../assets/logo.png";
 
 const Navbar2 = () => {
   const [isOpen, setIsOpen] = useState(false);
