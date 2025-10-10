@@ -22,7 +22,8 @@ const Testimonials = () => {
                <div className=''>
                 <img src={face2} alt="" className='h-20 w-22 rounded-full'/>
                </div>
-               <p className='flex justify-center items-center'> Kwame Asante, Cocoa Farmer</p>
+               <p className='flex justify-center items-center'> NAI AMPEM DARKO
+ATTOPEE I</p>
                </div>
                </div>
              </div>
@@ -37,7 +38,7 @@ const Testimonials = () => {
                <div className=''>
                 <img src={face3} alt="" className='h-20 w-24 rounded-full'/>
                </div>
-               <p className='flex justify-center items-center'> Ama Boakye, Cocoa Exporter</p>
+               <p className='flex justify-center items-center'> Mr. Ebenezer Pascal Ghunney</p>
                </div>
                </div>
              </div>
@@ -52,7 +53,7 @@ const Testimonials = () => {
                <div className=''>
                 <img src={face1} alt="" className='h-20 w-28 rounded-full'/>
                </div>
-               <p className='flex justify-center items-center'> Daniel Opoku, Agribusiness Owner</p>
+               <p className='flex justify-center items-center'> NANA OPOKU KWARTENG</p>
                </div>
                </div>
              </div>
@@ -67,7 +68,7 @@ const Testimonials = () => {
                <div className=''>
                 <img src={face4} alt="" className='h-20 w-32 rounded-full'/>
                </div>
-               <p className='flex justify-center items-center'>  Abena Mensah, Cocoa Processing Manager</p>
+               <p className='flex justify-center items-center'>Mrs. Sally Amaki Darko Attopee</p>
                </div>
                </div>
              </div>
