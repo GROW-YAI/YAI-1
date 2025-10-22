@@ -111,7 +111,7 @@ const Footer = () => {
                   href="tel:+233123456789"
                   className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded"
                 >
-                  +233 123 456 789
+                  +233546837202
                 </a>
               </div>
 
@@ -128,12 +128,12 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <CiGlobe aria-hidden size={18} />
                 <a
-                  href="https://noghusam.com.gh"
+                  href="http://creativewarriormetalworks.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#FE5C24] transition focus:outline-none focus:ring-2 focus:ring-[#FE5C24] rounded"
                 >
-                  noghusam.com.gh
+                  creativewarriormetalworks.com
                 </a>
               </div>
             </address>
