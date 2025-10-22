@@ -1,5 +1,5 @@
 import React from "react";
-import machine1 from '../../../../assets/Machine1.avif'
+import machine1 from '../../../../assets/Machine1.jpg'
 import machine2 from '../../../../assets/Machine2.jpg'
 import machine3 from '../../../../assets/Machine3.jpg'
 
