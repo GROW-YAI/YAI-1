@@ -1,5 +1,4 @@
 import React from "react";
-import innovator from "../../../../assets/innovator.jpg";
 
 const AboutInnovator = () => {
   return (
@@ -11,7 +10,7 @@ const AboutInnovator = () => {
         <div className="w-full max-w-[30rem] mx-auto border-1 border-[#FE5C24] rounded-3xl">
           <img
             className="w-full h-auto object-cover rounded-lg"
-            src={innovator}
+            src='https://res.cloudinary.com/dyt6piff4/image/upload/v1761725156/innovator_cvqksm.jpg'
             alt="Innovator"
           />
         </div>

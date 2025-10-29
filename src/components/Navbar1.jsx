@@ -60,7 +60,7 @@ const Navbar1 = () => {
               <SiTiktok size={18} />
             </a>
             <a
-              href="https://www.linkedin.com/company/creative-warrior-metal-company/"
+              href="https://www.linkedin.com/in/samuel-ebo-ghunney-77a90b130/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               className="hover:text-[#FE5C24] transition-all duration-500"
             >
               <CiLinkedin size={22} />
