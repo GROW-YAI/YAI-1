@@ -1,8 +1,5 @@
 import React from "react";
-import face1 from "../../../../assets/Face1.jpg";
-import face2 from "../../../../assets/Face2.jpg";
-import face3 from "../../../../assets/Face3.jpg";
-import face4 from "../../../../assets/Face4.jpg";
+
 
 
 
@@ -12,7 +9,7 @@ const testimonials = [
     name: "Nai Ampem Darko Attopee I",
     quote:
       "The Noghusam Cocoa Pod Breaking Machine has completely transformed our farm operations! What used to take us hours is now done in minutes. It's efficient, easy to use, and has significantly boosted our productivity.",
-    image: face2,
+    image: 'https://res.cloudinary.com/dyt6piff4/image/upload/v1761725156/Face2_nsaa8z.jpg',
     alt: "Portrait of Nai Ampem Darko Attopee I",
   },
   {
@@ -20,7 +17,7 @@ const testimonials = [
     name: "Mr. Ebenezer Pascal Ghunney",
     quote:
       "Since the introduction of the Noghusam Cocoa Pod Breaking Machine, work on our farm has become much easier. What used to take a full day now takes less than an hour. This innovation has truly brought relief and progress to our community farmers.",
-    image: face3,
+    image: 'https://res.cloudinary.com/dyt6piff4/image/upload/v1761725153/Face3_whoxgs.jpg',
     alt: "Portrait of Mr. Ebenezer Pascal Ghunney",
   },
   {
@@ -28,7 +25,7 @@ const testimonials = [
     name: "Nana Opoku Kwarteng",
     quote:
       "The Noghusam Cocoa Pod Breaking Machine represents true progress for our farmers. Its efficiency has lightened our workload and increased productivity across our communities. I commend the makers for this valuable contribution to agriculture.",
-    image: face1,
+    image: 'https://res.cloudinary.com/dyt6piff4/image/upload/v1761725152/Face1_jgyge3.jpg',
     alt: "Portrait of Nana Opoku Kwarteng",
   },
   {
@@ -36,7 +33,7 @@ const testimonials = [
     name: "Mrs. Sally Amaki Darko Attopee",
     quote:
       "This machine has saved us so much time and effort. We no longer have to rely on excessive manual labor, and our workers are safer. A game-changer for the cocoa industry!",
-    image: face4,
+    image: 'https://res.cloudinary.com/dyt6piff4/image/upload/v1761725153/Face4_uaaq7z.jpg',
     alt: "Portrait of Mrs. Sally Amaki Darko Attopee",
   },
 ];

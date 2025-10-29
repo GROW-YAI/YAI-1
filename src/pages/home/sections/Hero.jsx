@@ -1,12 +1,11 @@
 import React from "react";
-import CocoaHero from "../../../../assets/Cocoa2.jpg"; 
 import { HashLink } from "react-router-hash-link";
 
 const Hero = () => {
   return (
     <section 
       className="w-full h-screen bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${CocoaHero})` }}
+      style={{ backgroundImage: `url('https://res.cloudinary.com/dyt6piff4/image/upload/v1761725154/Cocoa2_av3ivy.jpg')` }}
     >
       <div className="w-full h-full flex flex-col items-center justify-center bg-[#191D34]/50 text-center text-white px-4">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
