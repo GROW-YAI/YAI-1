@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar1 from "../components/Navbar1";
 import Navbar2 from "../components/Navbar2";
+import BoafoWidgetInitializer from "../components/BoafoWidgetInitializer";
 
 const RootLayout = () => {
   return (
@@ -16,6 +17,7 @@ const RootLayout = () => {
           <Footer id/>
         </div>
       </main>
+      <BoafoWidgetInitializer />
     </div>
   );
 };
